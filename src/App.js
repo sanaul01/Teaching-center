@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NotFound from './Component/NotFound/NotFound';
 import Header from './Component/Header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './Component/Footer/Footer';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );
