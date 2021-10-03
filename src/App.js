@@ -5,6 +5,7 @@ import About from './Component/About/About';
 import Services from './Component/Services/Services';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NotFound from './Component/NotFound/NotFound';
+import Header from './Component/Header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <h1>Educational site</h1>
       <Router>
+        <Header></Header>
         <Switch>
           <Route exact path='/'>
             <Home></Home>
