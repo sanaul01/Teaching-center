@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className=""> 
-                <h2 className="text-warning">English Teaching Center</h2>
+        <div className="mt-3"> 
+                <h1 className="text-success">English Teaching Center</h1>
         </div>
     );
 };

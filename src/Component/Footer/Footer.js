@@ -6,43 +6,39 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     {/* Column-1 */}
-                    <div className="col-md-3 col-sm-6">
-                        <h4>Lorem ipsum</h4>
+                    <div className="col-md-3 col-sm-6 text-warning">
+                        <h4>Contuct With Us</h4>
                         <ul className="list-unstyled">
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
+                            <li>Call: 01777777777</li>
+                            <li>Phone: +9324534532</li>
+                            <li>Email: EasyLearning@gmail.com</li>
                         </ul>
                     </div>
                     {/* Column-2 */}
-                    <div className="col-md-3 col-sm-6">
-                        <h4>Lorem ipsum</h4>
+                    <div className="col-md-3 col-sm-6 text-warning">
+                        <h4>Contuct With Us</h4>
                         <ul className="list-unstyled">
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
+                            <li>Call: 01777777777</li>
+                            <li>Phone: +9324534532</li>
+                            <li>Email: EasyLearning@gmail.com</li>
                         </ul>
                     </div>
                     {/* Column-3 */}
-                    <div className="col-md-3 col-sm-6">
-                        <h4>Lorem ipsum</h4>
+                    <div className="col-md-3 col-sm-6 text-warning">
+                        <h4>Contuct With Us</h4>
                         <ul className="list-unstyled">
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
+                            <li>Call: 01777777777</li>
+                            <li>Phone: +9324534532</li>
+                            <li>Email: EasyLearning@gmail.com</li>
                         </ul>
                     </div>
                     {/* Column-4 */}
-                    <div className="col-md-3 col-sm-6">
-                        <h4>Lorem ipsum</h4>
+                    <div className="col-md-3 col-sm-6 text-warning">
+                        <h4>Contuct With Us</h4>
                         <ul className="list-unstyled">
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
+                            <li>Call: 01777777777</li>
+                            <li>Phone: +9324534532</li>
+                            <li>Email: EasyLearning@gmail.com</li>
                         </ul>
                     </div>
                 </div>
