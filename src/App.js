@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import About from './Component/About/About';
 import Services from './Component/Services/Services';
-import { BrowserRouter as Router, Switch, Route, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import NotFound from './Component/NotFound/NotFound';
 import Header from './Component/Header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,8 +15,7 @@ import Navbar from './Component/Navbar/Navbar'
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="App"> 
      <Router>
        <Navbar></Navbar>
        <Header></Header>

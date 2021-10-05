@@ -11,7 +11,10 @@ const Home = () => {
         .then(data => setCourses(data))
     }, [])
     return (
-        <div className="d-flex ms-5">
+        <div>
+            <h2>Home Page</h2>
+            <div className="d-flex ms-5">
+            {/* Home page course  */}
             <div className="col-6">
             <Row xs={1} md={2} className="g-4 mt-3">
                 {
@@ -22,9 +25,11 @@ const Home = () => {
                 }
             </Row>
             </div>
+            {/* Home cart */}
             <div className="col-6 mt-5 text-warning ms-5">
                 <Cart></Cart>
             </div>
+        </div>
         </div>
     );
 };

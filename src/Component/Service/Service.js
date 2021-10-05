@@ -5,6 +5,7 @@ const Service = (props) => {
     const {name, img, started, duration, description} = props.service || {}
     return (
         <Col>
+        {/* service grid card  */}
       <Card className="h-100">
         <Card.Img className="h-75" variant="top" src={img} />
         <Card.Body>
