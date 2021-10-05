@@ -11,10 +11,14 @@ import Home from './Component/Home/Home';
 import Service from './Component/Service/Service';
 import OurCourse from './Component/Our course/OurCourse';
 
+import Navbar from './Component/Navbar/Navbar'
+
 function App() {
   return (
     <div className="App">
+      
      <Router>
+       <Navbar></Navbar>
        <Header></Header>
        <Switch>
          <Route exact path='/'>
